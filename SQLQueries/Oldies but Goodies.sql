@@ -1,0 +1,1 @@
+Select * from dbo.Track where Single_release_date BETWEEN '1980-01-01' and '1989-12-31' and US_Billboard_Hot_100_peak = '1' order by Single_release_date desc
